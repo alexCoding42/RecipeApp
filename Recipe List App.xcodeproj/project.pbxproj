@@ -19,6 +19,7 @@
 		ECC1AD0D29C49B57009DBA39 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC1AD0C29C49B57009DBA39 /* Ingredient.swift */; };
 		ECC1AD0F29C4A4A7009DBA39 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC1AD0E29C4A4A7009DBA39 /* RecipeFeaturedView.swift */; };
 		ECC538E129C2028F00F5AA81 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC538E029C2028F00F5AA81 /* RecipeTabView.swift */; };
+		ECC8323129C9C4A400B4B72F /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8323029C9C4A400B4B72F /* Rational.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		ECC1AD0C29C49B57009DBA39 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		ECC1AD0E29C4A4A7009DBA39 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 		ECC538E029C2028F00F5AA81 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
+		ECC8323029C9C4A400B4B72F /* Rational.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				831EE69225B0C77800BACCDD /* Models */,
 				831EE69425B0C78000BACCDD /* Services */,
 				831EE69325B0C77C00BACCDD /* Data */,
+				ECC8322F29C9C48D00B4B72F /* Utilities */,
 				831EE68325B0C74E00BACCDD /* Assets.xcassets */,
 				831EE68825B0C74E00BACCDD /* Info.plist */,
 				831EE68525B0C74E00BACCDD /* Preview Content */,
@@ -131,6 +134,14 @@
 				831EE6A625B0CAD000BACCDD /* DataService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		ECC8322F29C9C48D00B4B72F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				ECC8323029C9C4A400B4B72F /* Rational.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +221,7 @@
 				ECC1AD0D29C49B57009DBA39 /* Ingredient.swift in Sources */,
 				ECC1AD0F29C4A4A7009DBA39 /* RecipeFeaturedView.swift in Sources */,
 				831EE68025B0C74D00BACCDD /* Recipe_List_App.swift in Sources */,
+				ECC8323129C9C4A400B4B72F /* Rational.swift in Sources */,
 				831EE6A725B0CAD000BACCDD /* DataService.swift in Sources */,
 				ECC538E129C2028F00F5AA81 /* RecipeTabView.swift in Sources */,
 			);
